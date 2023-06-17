@@ -1,8 +1,8 @@
 {
   "name": "EasyLocalization",
   "author": "AlerHughes",
-  "version": "1.0.1",
-  "description": "this mod is a easy solution for Localization",
+  "version": "1.0.3",
+  "description": "this mod is an easy solution for Localization",
   "targetGameBuild": 522,
   "iconPath": "icon.png"
 }

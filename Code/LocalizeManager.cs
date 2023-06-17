@@ -1,17 +1,18 @@
-﻿using System.Text;
+﻿using System.Collections.Generic;
+using System.IO;
+using System.Text;
 using HarmonyLib;
 using SimpleJSON;
-using UnityEngine;
 using Debug = UnityEngine.Debug;
 
-namespace EasyLocalization
+namespace Easy_Localization
 {
     public class LocalizeManager
     {
         public static Dictionary<string,string> ModDicts = new Dictionary<string, string>();
         public static void InitAllModsDir()
         {
-            string modsDir = Application.dataPath + "/../Mods";
+            string modsDir = NCMS.Core.TempPath + "/Mods";
             if (Directory.Exists(modsDir))
             {
                 foreach (string directory in Directory.GetDirectories(modsDir))

@@ -2,7 +2,7 @@ using HarmonyLib;
 using NCMS;
 using UnityEngine;
 
-namespace EasyLocalization{
+namespace Easy_Localization{
     [ModEntry]
     class Main : MonoBehaviour{
         void Awake()
