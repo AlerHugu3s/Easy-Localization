@@ -1,5 +1,5 @@
 #### Useage
-Unzip Easy-Localization.zip and put whole folder into GameRoots/Mods/
+Unzip EasyLocalization.zip and put EasyLocalization.mod into GameRoots/Mods/
 
 #### Use Localization Tool for your own mod
 1. Unzip the **EasyLocalizationTool.zip**
