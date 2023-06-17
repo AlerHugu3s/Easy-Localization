@@ -1,7 +1,4 @@
-﻿using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text;
+﻿using System.Text;
 using HarmonyLib;
 using SimpleJSON;
 using UnityEngine;
@@ -34,8 +31,7 @@ namespace EasyLocalization
         public static void Init()
         {
             InitAllModsDir();
-            string pLanguage = Traverse.Create(LocalizedTextManager.instance).Field("language").GetValue() as string;
-            LoadLocalizedTextFromFile(pLanguage);
+            LoadLocalizedTextFromFile(LocalizedTextManager.instance.language);
         }
 
         public static void LoadLocalizedTextFromFile(string language)
