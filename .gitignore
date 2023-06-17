@@ -1,0 +1,15 @@
+/.idea
+/.idea/*
+/bin
+/bin/*
+/obj
+/obj/*
+/Properties
+/Properties/*
+*.sln
+*.sln.DotSettings.user
+*.csproj
+/Code/.idea/
+/Code/.idea/*
+*.zip
+*.mod
